@@ -213,11 +213,8 @@ button {
         height: 30%;
     }
     .navul {
-        position: left;
-        float: left;
-        height: 20%;
-        margin-top: 2%;
-        margin-left: 5%;
+        margin-left: 12%;
+        margin-right: 10%;
     
     }
 }
@@ -242,7 +239,8 @@ button {
         height: 30%;
     }
     .navul {
-        margin-left: 10%;
+        margin-left: 12%;
+
     
     }
 }
@@ -252,12 +250,14 @@ button {
             margin-top: 20%;
             height: 0px auto;
             height: auto;
-            width: 35rem;
+            width: 555px;
         }
         .head-1 {
             width: fit-content;
             position: left;
             margin-left: 0 auto;
+
+            
         }
         h2,p {
             margin-left: 0px;
