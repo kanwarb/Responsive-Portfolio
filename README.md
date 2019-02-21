@@ -16,3 +16,8 @@
   *    HTML
 
   *    CSS
+
+## Images of Size 980, 780 and 640 
+ * About Me   [980](980-image-aboutme.png) , [780](780-image-aboutme.png) , [640](640-image-aboutme.png)
+ * Portfolio  [980](980-image-portfolio.png) , [780](780-image-portfolio.png) , [640](640-image-portfolio.png)
+ * Contact    [980](980-image-contact.png) , [780](780-image.png) , [640](640-image.png)
