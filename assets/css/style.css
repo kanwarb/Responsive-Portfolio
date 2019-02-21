@@ -13,8 +13,10 @@ nav
     background-color: #ffffff;
     width: 100%;
     height: 120px;
+    margin-top: -10px;
     border-color: #cccccc;
     border-bottom-style: solid;
+
 
 
 }
@@ -39,7 +41,10 @@ h1 {
 
 }
 
-
+.section {
+    margin-bottom: 5px;
+        border-bottom-color: #4aaaa5;
+}
 
 .box-1 {
     float: left;
@@ -154,16 +159,17 @@ button {
         position: left;
         margin-top: 5%;
         width: 20rem;
-        margin-left: 5%;
+        margin-left: 10%;
         background-color: #ffffff;
         border-style: solid;
         border-color:  #dddddd;
+        overflow: visible;
     }
     
     .head-1,ul {
         width: fit-content;
         margin-left: 0px auto;
-        margin-top: 0;
+        margin-top: 0px;
     }
     h2,p {
         float: left;
@@ -194,8 +200,14 @@ button {
         height: 270%;
         margin-right: 10%;
     }
+    .imgport {
+        float: left;
+        width:  200px;
+        height: 200px;
+        margin-left: 30px;
+        margin-top: 5px;
+    }
 }
-
 
 @media screen and (min-width: 440px) {
     .relativebox {
@@ -206,6 +218,7 @@ button {
         background-color: #ffffff;
         border-style: solid;
         border-color:  #dddddd;
+       /* overflow: visible; */
     }
     
     
@@ -243,13 +256,21 @@ button {
         margin-right: 10%;
         margin-bottom: 0px;
     }
+    .imgport {
+        float: left;
+        width:  200px;
+        height: 200px;
+        margin-left: 60px;
+        margin-top: 5px;
+    }
 }
 
 @media screen and (min-width: 540px) {
     .relativebox {
         float: left;
         margin-top: 5%;
-        width: 30em;
+        width: 28em;
+        margin-right: 25%;
         background-color: #ffffff;
         border-style: solid;
         border-color:  #dddddd;
@@ -263,7 +284,7 @@ button {
     h2,p {
         float: left;
         margin-left: 2px;
-        width: 30em;;
+        width: 28em;;
         height: 20%;
     }
     .navul {
@@ -282,6 +303,13 @@ button {
         text-align: center ;
     
     }
+    .imgport {
+        float: left;
+        width:  200px;
+        height: 200px;
+        margin-left: 80px;
+        margin-top: 5px;
+    }
 }
 
 @media screen and (min-width: 640px) {
@@ -289,12 +317,13 @@ button {
         float: left;
         position: left;
         margin-top: 5%;
-        width: 32rem;
-        margin-left: 50px ;
-        margin-right: 50px ;
+        margin-left: 15%;
+        width: 30rem;
+ 
         background-color: #ffffff;
         border-style: solid;
         border-color:  #dddddd;
+        
     }
 
     .head-1 {
@@ -305,7 +334,7 @@ button {
     }
     h2,p {
         margin-left: 2px;
-        width: 32rem;
+        width: 30rem;
         height: 30%;
     }
     .navul {
@@ -323,6 +352,7 @@ button {
         text-align: center ;
     
     }
+   
 }
 
     @media screen and (min-width: 740px) {
@@ -339,6 +369,7 @@ button {
             width: fit-content;
             position: left;
             margin-left: 0 auto;
+            margin-top: 10px;
 
             
         }
@@ -368,11 +399,13 @@ button {
             width: fit-content;
             position: left;
             margin-left: 0 auto;
+            margin-top: 5px;
         }
         .relativebox {
             float: left;
             position: left;
             margin-top: 5%;
+            margin-left: 15%;
             width: 44rem;
             background-color: #ffffff;
             border-style: solid;
@@ -406,8 +439,8 @@ button {
             float: left;
             position: left;
             margin-top: 5%;
-            margin-left: 5%;
-            width: 50rem;
+            margin-left: 15%;
+            width: 48rem;
             background-color: #ffffff;
             border-style: solid;
             border-color:  #dddddd;
@@ -436,15 +469,15 @@ button {
             float: left;
             position: left;
             margin-top: 5%;
-            margin-left: 10%;
-            width: 55rem;
+            margin-left: 15%;
+            width: 50rem;
             background-color: #ffffff;
             border-style: solid;
             border-color:  #dddddd;
         }
         h2,p {
             margin-left: 2px;
-            width: 55rem;
+            width: 50rem;
             height: 30%;
         }
        
@@ -457,15 +490,43 @@ button {
             margin-left: 0 auto;
         }
         .relativebox {
-            margin-top: 15%;
-            height: 0px auto;
-            width: 55rem;
+            float: left;
+            position: left;
+            margin-top: 5%;
+            margin-left: 15%;
+            width: 60rem;
+            background-color: #ffffff;
+            border-style: solid;
+            border-color:  #dddddd;
         }
         h2,p {
             margin-left: 0px;
-            width: 50rem;
+            width: 60rem;
             height: 30%;
         }
        
     }
 
+    @media screen and (min-width: 1180px) {
+        .head-1 {
+            width: fit-content;
+            position: left;
+            margin-left: 0 auto;
+        }
+        .relativebox {
+            float: left;
+            position: left;
+            margin-top: 5%;
+            margin-left: 15%;
+            width: 65rem;
+            background-color: #ffffff;
+            border-style: solid;
+            border-color:  #dddddd;
+        }
+        h2,p {
+            margin-left: 0px;
+            width: 65rem;
+            height: 30%;
+        }
+       
+    }
