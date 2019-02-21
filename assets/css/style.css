@@ -9,8 +9,6 @@ body  {
 
 }   
 
-
-
 header,
 nav
  {
@@ -152,15 +150,7 @@ button {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
-.box-4 {
-    float: left;
-    width: 100%;
-    height: 20px;
-    margin-top:  12%;
-    margin-bottom: 0px;
-    margin-left: 0 auto;
-    background-color: #4aaaa5;
-}
+
 
 
 @media screen and (min-width: 340px) {
@@ -180,6 +170,7 @@ button {
     .head-1,ul {
         width: fit-content;
         margin-left: 0px auto;
+        margin-top: 0;
     }
     h2,p {
         width: 20rem;
@@ -214,6 +205,15 @@ button {
         margin-left: 30px;
         margin-top: 5px;
     }
+    .box-4 {
+        float: left;
+        width: 100%;
+        height: 20px;
+        margin-top:  10%;
+        margin-bottom: 0px;
+        margin-left: 0 ;
+        background-color: #4aaaa5;
+    }
 }
 
 
@@ -229,7 +229,15 @@ button {
        /* overflow: visible; */
     }
     
-    
+    .box-4 {
+        float: left;
+        width: 100%;
+        height: 20px;
+        margin-top:  29%;
+        margin-bottom: 0px;
+        margin-left: 0 ;
+        background-color: #4aaaa5;
+    }
     .head-1,ul {
         width: fit-content;
         position: left;
@@ -238,7 +246,7 @@ button {
     }
     h2,p {
         width: 23rem;
-        height: 30%;
+        height: 35%;
     }
     .navul {
         margin-left: 12%;
@@ -291,7 +299,7 @@ button {
     h2,p {
         margin-left: 2px;
         width: 26em;;
-        height: 20%;
+        height: 25%;
     }
     .navul {
         margin-left: 12%;
@@ -315,6 +323,15 @@ button {
         height: 200px;
         margin-left: 80px;
         margin-top: 5px;
+    }
+    .box-4 {
+        float: left;
+        width: 100%;
+        height: 20px;
+        margin-top:  20%;
+        margin-bottom: 0px;
+        margin-left: 0 ;
+        background-color: #4aaaa5;
     }
 }
 
@@ -341,7 +358,7 @@ button {
     h2,p {
         margin-left: 2px;
         width: 30rem;
-        height: 30%;
+        height: 35%;
     }
     .navul {
         margin-left: 12%;   
@@ -357,13 +374,22 @@ button {
         text-align: center ;
     
     }
+    .box-4 {
+        float: left;
+        width: 100%;
+        height: 20px;
+        margin-top:  25%;
+        margin-bottom: 0px;
+        margin-left: 0 ;
+        background-color: #4aaaa5;
+    }
    
 }
 
     @media screen and (min-width: 740px) {
         .relativebox {
             float: left;
-            position: left;
+            position: relative;
             margin-top: 5%;
             width: 38rem;
             background-color: #ffffff;
@@ -381,7 +407,7 @@ button {
         h2,p {
             margin-left: 2px;
             width: 38rem;
-            height: 30%;
+            height: 40%;
         }
         footer {
             float: left;
@@ -393,6 +419,15 @@ button {
             padding: 2%;
             text-align: center ;
         
+        }
+        .box-4 {
+            float: left;
+            width: 100%;
+            height: 20px;
+            margin-top:  30%;
+            margin-bottom: 0px;
+            margin-left: 0 ;
+            background-color: #4aaaa5;
         }
     }
     @media screen and (min-width: 840px) {
@@ -419,7 +454,7 @@ button {
         h2,p {
             margin-left: 2px;
             width: 44rem;
-            height: 30%;
+            height: 40%;
         }
         footer {
             float: left;
@@ -433,6 +468,15 @@ button {
             border-top: 5rem;
             border-top-color: #4aaaa5;
         
+        }
+        .box-4 {
+            float: left;
+            width: 100%;
+            height: 20px;
+            margin-top:  23%;
+            margin-bottom: 0px;
+            margin-left: 0 ;
+            background-color: #4aaaa5;
         }
        
     }
@@ -460,6 +504,15 @@ button {
             width: 48rem;
             height: 30%;
         }
+        .box-4 {
+            float: left;
+            width: 100%;
+            height: 20px;
+            margin-top:  22%;
+            margin-bottom: 0px;
+            margin-left: 0 ;
+            background-color: #4aaaa5;
+        }
        
     }
 
@@ -483,6 +536,15 @@ button {
             margin-left: 2px;
             width: 50rem;
             height: 30%;
+        }
+        .box-4 {
+            float: left;
+            width: 100%;
+            height: 20px;
+            margin-top:  10%;
+            margin-bottom: 0px;
+            margin-left: 0 ;
+            background-color: #4aaaa5;
         }
        
     }
