@@ -330,7 +330,7 @@ button {
         width: fit-content;
         position: left;
         margin-left: 0px auto;
-        margin-top: 0;
+        margin-top: 0 auto;
     }
     h2,p {
         margin-left: 2px;
@@ -369,7 +369,7 @@ button {
             width: fit-content;
             position: left;
             margin-left: 0 auto;
-            margin-top: 10px;
+            margin-top: 5px auto;
 
             
         }
@@ -399,7 +399,7 @@ button {
             width: fit-content;
             position: left;
             margin-left: 0 auto;
-            margin-top: 5px;
+            margin-top: 5px auto;
         }
         .relativebox {
             float: left;
@@ -445,10 +445,11 @@ button {
             border-style: solid;
             border-color:  #dddddd;
         }
-        .head-1 {
+        .head-1,ul {
             width: fit-content;
             position: left;
             margin-left: 0 auto;
+            margin-top: 40px;
         }
     
         h2,p {
