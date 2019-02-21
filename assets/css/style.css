@@ -85,8 +85,8 @@ a, u, p {
 }
 #mypic {
         float: left;
-        margin-left: 10px;
-        width: 20%;
+        margin-left: 5px;
+        width: 25%;
 }
 .box-2 {
     float: relative;
@@ -151,6 +151,16 @@ button {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
+.box-4 {
+    float: left;
+    width: 100%;
+    height: 20px;
+    margin-top:  5%;
+    margin-bottom: 0px;
+    margin-left: 0 auto;
+    background-color: #4aaaa5;
+}
+
 
 @media screen and (min-width: 340px) {
    
@@ -169,11 +179,8 @@ button {
     .head-1,ul {
         width: fit-content;
         margin-left: 0px auto;
-        margin-top: 0px;
     }
     h2,p {
-        float: left;
-        margin-left: 2px;
         width: 20rem;
         height: 30%;
     }
@@ -189,7 +196,6 @@ button {
         clear: both;
         width: 100%;
         color: #dddddd;
-        margin-top: 5px;
         padding: 2%;
         text-align: center ;
     
@@ -209,7 +215,11 @@ button {
     }
 }
 
+
 @media screen and (min-width: 440px) {
+    body { 
+        background-image: url('../images/dust_scratches.png');
+      }
     .relativebox {
         float: left;
         position: left;
@@ -229,7 +239,6 @@ button {
         margin-top: 0;
     }
     h2,p {
-
         width: 23rem;
         height: 30%;
     }
@@ -245,8 +254,8 @@ button {
         clear: both;
         width: 100%;
         color: #dddddd;
-        margin-top: 5px;
         padding: 2%;
+        margin-top: 0 auto;
         text-align: center ;
     
     }
@@ -282,9 +291,8 @@ button {
         margin-top: 0;
     }
     h2,p {
-        float: left;
         margin-left: 2px;
-        width: 28em;;
+        width: 26em;;
         height: 20%;
     }
     .navul {
@@ -299,7 +307,7 @@ button {
         clear: both;
         width: 100%;
         color: #dddddd;
-        margin-top: 5px;
+        margin-top: 0 auto;
         text-align: center ;
     
     }
@@ -347,7 +355,6 @@ button {
         clear: both;
         width: 100%;
         color: #dddddd;
-        margin-top: 5px;
         padding: 2%;
         text-align: center ;
     
@@ -385,7 +392,6 @@ button {
             clear: both;
             width: 100%;
             color: #dddddd;
-            margin-top: 5px;
             padding: 2%;
             text-align: center ;
         
@@ -424,7 +430,6 @@ button {
             clear: both;
             width: 100%;
             color: #dddddd;
-            margin-top: 5px;
             padding: 2%;
             text-align: center ;
             border-top: 5rem;
@@ -531,3 +536,5 @@ button {
         }
        
     }
+
+    
