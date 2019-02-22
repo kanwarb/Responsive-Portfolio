@@ -18,6 +18,6 @@
   *    CSS
 
 ## Images of Size 980, 780 and 640 
- * About Me   ![980](./assets/images/980-image-aboutme.png?raw=true ) ,  ![780](./assets/images/780-image-aboutme.png?raw=true ) , ![640](./assets/images/640-image-aboutme.png?raw=true)
+ * About Me   [a 980 link](./assets/images/980-image-aboutme.png?raw=true ) ,  [a 780 link](./assets/images/780-image-aboutme.png?raw=true ) , [a 640 link](./assets/images/640-image-aboutme.png?raw=true)
  * Portfolio  [980](/assets/images/980-image-portfolio.png) , [780](/assets/images/780-image-portfolio.png) , [640](/assets/images/640-image-portfolio.png)
  * Contact    [980](/assets/images/980-image-contact.png) , [780](/assets/images/780-image.png) , [640](/assets/images/640-image.png)
